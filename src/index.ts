@@ -10,7 +10,7 @@ import productRoutes from "./routes/productRoutes";
 import userRoutes from "./routes/userRoutes";
 import expenseRoutes from "./routes/expenseRoutes";
 
-/* CONFIGURATIONS */
+/* CONFIGURATIONS and*/
 dotenv.config();
 const app = express();
 app.use(express.json());
